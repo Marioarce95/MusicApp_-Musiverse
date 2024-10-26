@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gradient-to-br from-purple-900 to-black text-white;
+}
+
+.glass-effect {
+  @apply bg-white bg-opacity-10 backdrop-filter backdrop-blur-lg;
+}
